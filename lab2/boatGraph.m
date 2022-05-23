@@ -23,7 +23,7 @@ end
 
 
 plotnum = 1;
-tiledlayout(2,2)
+tiledlayout(1,1)
 
 %%%%%%%%%%%%%%%%%%%%%%plot%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 nexttile
@@ -48,8 +48,8 @@ for a=1:TotalSpeeds
 end
 
 
-%legendStrings = string(stepsS) + " MPH";
-%legend(legendStrings)
+legendStrings = string(stepsS) + " MPH";
+legend(legendStrings)
 
 plotnum = plotnum + 1;
 hold off
