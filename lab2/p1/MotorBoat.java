@@ -31,7 +31,7 @@ public class MotorBoat {
 	}
 	
 	public void operateForTime(double time) {
-		if(this.speed != 0) {
+		if(this.speed > 0) {
 			double maxTime = (this.fuelRemaining)/(this.boatEfficiency*this.speed*this.speed);
 			
 			if(maxTime<time) {
